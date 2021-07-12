@@ -1,0 +1,54 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'segoe UI';
+	}
+	
+	.container{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	/* background-color: gray; */
+	width:80%;
+	margin-left: 10%;
+	}
+	
+	.padd{
+	padding:20px;
+	}
+	
+	.header{
+	height:50px;
+	width:100%;
+	/* background-color: red; */
+	display:flex;
+	justify-content: space-between;
+	}
+	
+	.cards{
+	width:100%;
+	/* background-color: lightgray; */
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	}
+	
+	.card{
+	height:200px;
+	width:18%;
+	margin-top: 20px;
+	background-color: red;
+	background-size:cover;
+                transition: .4s;
+	}
+	
+	.overlay{
+	height:200px;
+	width:100%;
+	background-color: gray;
+                background-image:url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/5373/Black-3D-Blocks-iphone-wallpaper-ilikewallpaper_com.jpg) ;
+                 background-size: cover;
+	}
+	
+	.opened{
+	display:none;
+	}
